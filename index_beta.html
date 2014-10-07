@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bird Tree</title>
+<link rel="stylesheet" href="tinytable/style.css" />
+<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.23.custom.css" />
+<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
+<script type="text/javascript" src="js/jquery.download.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
+
+</head>
+<body>
+    <div class="main">
+        <div class="right">
+		<div class="topright">
+			<div class="selectInstructions">
+				This tool trims a source tree set to a subset of species and generates random trees from that. 
+				Copy and paste species from this list (or the CSV file) into the box to the right, 
+				fill in the fields below, and then click "Get Trees" to download a zipped set of random trees with metadata.
+			</div>
+			<div><div class="selectedContainer">	
+				<textarea class="selected"></textarea>
+			</div>
+			<div class="speciesContainer">
+				<div class="species"><!--#include virtual="species.html" --></div>	
+			</div></div>
+		</div>
+		<div class="bottomright">
+		        <label for="email">For our records, please provide your email address:</label>
+			<input type="text" name="email" id="email" size="30">
+			<br>
+			<label for="treeset">Source of trees:</label>
+			<select name="treeset" id="treeset">
+			   <option selected="selected" value="7">Ericson All Species: a set of 10000 trees with 9993 OTUs each </option>
+			   <option value="3">Ericson Sequenced Species: a set of 10000 trees with 6670 OTUs each </option>
+			   <option value="8">Hackett All Species: a set of 10000 trees with 9993 OTUs each </option>
+			   <option value="4">Hackett Sequenced Species: a set of 10000 trees with 6670 OTUs each </option>
+			</select>
+			<br>
+			<label for="treenum">How many trees do you need?</label>
+			<input id="treenum" type="text" size=4>
+			<button id="gettrees">Get Trees</button>
+			<img id="loading" src="loading.gif" onload="$(this).toggle(false)">
+			<div id="status"></div>		
+		</div>
+	</div>	        
+	<div class="left">
+		<h3>A global phylogeny of birds</h3>
+		<img class="birdpic" src="Jetz056crop.jpg">
+		<p> 
+		This webpage offers Phylogenetic Tree Sets from  
+		W. Jetz, Thomas, G. H. , Joy, J.B., Hartmann, K. and A.O. Mooers (in press): 
+		"The global diversity of birds in space and time". Nature.
+		</p>
+		<br>
+		<p><a href="archives/">
+		Full sets of bird trees in flat newick format for both the 
+		Hackett and Ericson backbones, and for both DNA-data only (Stage 1, 6670 species) 
+		trees and complete (Stage 2, 9993 species) trees. Each file 
+		contains 1,000 trees from the posterior distribution.
+		</a></p>
+		<br>
+		<p><a href="BLIOCPhyloMasterTax.csv">Complete taxonomy that these trees were based on (CSV).</a></p>
+    	</div>
+    </div>
+<script type="text/javascript" src="birdtree.js"></script>
+</body>
+</html>
