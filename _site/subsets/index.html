@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Phylogeny subsets</title>
+        <meta name="viewport" content="width=device-width">
+        <script type="text/javascript" src="/js/jquery-1.8.1.min.js"></script>
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+      <div class="site">
+        <div class="header">
+          <h1 class="title"><a href="/">BirdTree.org</a></h1>
+          <a class="extra" href="/">Home</a>
+          <a class="extra" href="/methods">Methods</a>
+          <a class="extra" href="/taxonomy">Taxonomy</a>
+          <a class="extra" href="/downloads">Downloads</a>
+          <a class="extra" href="/subsets">Phylogeny Subsets</a>            
+        </div>
+
+        <div class="selectInstructions DATE">
+    <font size="5"><strong>Phylogeny subsets</strong></font>
+        <br>
+        This tool provides a simple way to produce distributions of trees with subsets of taxa. The upper limit for the tool is 2,500 species (above which server-based subsetting becomes prohibitively slow). If larger subsets are required you can <a href="archives/">download full trees</a> by following the links on the left.
+        <br><br>
+        The tool first trims to a subset, and then samples trees from a chosen pseudo-posterior distribution. <i>Note that any further analyses should only be conducted with a large sample of trees.</i>
+        
+        <br><br>
+        <b>Instructions</b>
+        <br>
+        1. Select species from the list. Then copy and paste or drag and drop them into the box to the right. Alternatively, download the <a href="BLIOCPhyloMasterTax.csv"> taxonomy file</a> and paste species names from the "Scientific" column.
+        <br>
+        2. Choose a tree distribution (see paper for details).
+        <br>
+        3. Select the number of trees to download (defaults to minimum of 100)
+        <br>
+        4. Click "Get Trees" to download a zipped set of randomly selected trees with metadata including accession numbers and citations to original sources. 
+        
+        <br><br><br>
+       <i>Thanks to the <a href="http://phylodiversity.net/phylocom/">Phylocom</a> Developers for the subsetting algorithms used and Bill Piel, Yale University, for implementation.  </i>
+        
+         
+    </p></div>
+
+
+        <div class="footer">
+          <div class="contact">
+            <p>
+              <a href="mailto:info@birdtree.org">info@birdtree.org</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
