@@ -6,7 +6,7 @@ body {
 }
 
 .hero-unit {
-  background-image:url('/{{site.root}}/images/BirdTreeLarge.png');
+  background-image:url('/{{ site.root }}/images/BirdTreeLarge.png');
   opacity: 0.4;
   background-repeat: no-repeat;
   background-attachment: fixed;
