@@ -3,6 +3,10 @@ layout: default
 title: Methods
 ---
 
+
+Methods
+=======
+
 *General approach*
 
 
@@ -11,7 +15,7 @@ Our tree construction approach combines relaxed clock molecular trees of well-su
 1. (1)Each species is assigned to one of 158 clades;
 2. (2)Relaxed-clock trees are generated for each clade;
 3. (3)Species without genetic information are partially constrained within their clade based on a combination of consensus trees from step 2 and taxonomic information. Placement of these species is then consistent with the partial constraints and a pure birth model of diversification;
-4. (4)Steps 2 and 3 generate trees for each clade that are based either on only species with genetic data (step 2) or on all species including those with and without genetic data (step 3). Construction of final trees is achieved by combining trees from either step 2 or step 3 with time-calibrated relaxed molecular clock backbone trees. 
+4. (4)Steps 2 and 3 generate trees for each clade that are based either on only species with genetic data (step 2) or on all species including those with and without genetic data (step 3). Construction of final trees is achieved by combining trees from either step 2 or step 3 with time-calibrated relaxed molecular clock backbone trees.
 
 Expanded methods: [Jetz et al. 2012, Supplementary Methods section 1.1.1](http://www.nature.com/nature/journal/v491/n7424/extref/nature11631-s1.pdf)
 
@@ -95,4 +99,3 @@ Slack, K. E., C. M. Jones, T. Ando, G. A. Harrison, R. E. Fordyce, U. Arnason, a
 Waterhouse, D. M., B. E. Lindow, N. V. Zelenkov, and G. J. Dyke. 2008. Two new parrots (Psittaciformes) from the lower Eocene fur formation of Denmark. Palaeontology **51** :575-582.
 
 You, H.-l., M. C. Lamanna, J. D. Harris, L. M. Chiappe, J. O'Connor, S.-a. Ji, J.-c. Lu, C.-x. Yuan, D.-q. Li, X. Zhang, K. J. Lacovara, P. Dodson, and Q. Ji. 2006. A Nearly Modern Amphibious Bird from the Early Cretaceous of Northwestern China. Science **312** :1640-1643.
-

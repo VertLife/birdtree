@@ -2,15 +2,13 @@
 layout: default
 title: Home
 ---
-
-A GLOBAL PHYLOGENY OF BIRDS
-===========================
-
-<img src="/{{ site.root }}/images/Jetz056crop.jpg" height="150px">
-<img onclick="window.open('/{{ site.root }}/images/BirdTreeLarge.png')" src="/{{ site.root }}/images/BirdTreeSmall.png" height="150px">
+<div class="container">
+  <h1 class="hero-text">A GLOBAL PHYLOGENY OF BIRDS</h1>
+  <div class="hero-unit">  
+  </div>
+</div>
 
 This website accompanies the following studies:
-
 ***
 The global diversity of birds in space and time  
 W. Jetz,  G. H. Thomas, J. B. Joy, K. Hartmann, A. O. Mooers
@@ -31,4 +29,3 @@ Explore results in Map of Life:
 [http://species.mol.org/info/](http://species.mol.org/info/)
 Explore results on OneZoom tree:  
 [http://www.onezoom.org/EDGE_birds.htm](http://www.onezoom.org/EDGE_birds.htm)
-

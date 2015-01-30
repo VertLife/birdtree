@@ -5,34 +5,51 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
-        <script type="text/javascript" src="/{{ site.root }}/js/jquery-1.8.1.min.js"></script>
+        <script type="text/javascript" src="/{{ site.root }}/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/{{ site.root }}/js/bootstrap.min.js"></script>
+        <!--<link rel="stylesheet" href="/{{ site.root }}/css/bootstrap.min.css">-->
+        <link rel="stylesheet" href="http://bootswatch.com/flatly/bootstrap.min.css">
         <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/{{ site.root }}/css/syntax.css">
+        <link rel="stylesheet" href="/{{ site.root }}/css/app.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/{{ site.root }}/css/main.css">
+        <!--<link rel="stylesheet" href="/{{ site.root }}/css/main.css">-->
 
     </head>
     <body>
-      <div class="site">
-        <div class="header">
-          <h1 class="title"><a href="/{{ site.root }}/">{{ site.name }}</a></h1>
-          <a class="extra" href="/{{ site.root }}/">Home</a>
-          <a class="extra" href="/{{ site.root }}/methods">Methods</a>
-          <a class="extra" href="/{{ site.root }}/taxonomy">Taxonomy</a>
-          <a class="extra" href="/{{ site.root }}/downloads">Downloads</a>
-          <a class="extra" href="/{{ site.root }}/subsets">Phylogeny Subsets</a>            
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">{{ site.name }}</a>
         </div>
-
-        {{ content }}
-
-        <div class="footer">
-          <div class="contact">
-            <p>
-              <a href="mailto:info@birdtree.org">info@birdtree.org</a>
-            </p>
-          </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            {% for node in site.pages %}
+              {% if page.url == node.url %}
+                <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+              {% else %}
+                <li><a href="{{node.url}}">{{node.title}}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
         </div>
       </div>
+    </nav>
+    <div class="container">
+        {{ content }}
+    </div>
+    <div class="container">
+
+        <p>
+          <a href="mailto:info@birdtree.org">info@birdtree.org</a>
+        </p>
+
+    </div>
     </body>
 </html>

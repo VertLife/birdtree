@@ -5,57 +5,91 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Phylogeny subsets</title>
         <meta name="viewport" content="width=device-width">
-        <script type="text/javascript" src="/birdtree/js/jquery-1.8.1.min.js"></script>
+        <script type="text/javascript" src="/../js/jquery.min.js"></script>
+        <script type="text/javascript" src="/../js/bootstrap.min.js"></script>
+        <!--<link rel="stylesheet" href="/../css/bootstrap.min.css">-->
+        <link rel="stylesheet" href="http://bootswatch.com/flatly/bootstrap.min.css">
         <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/birdtree/css/syntax.css">
+        <link rel="stylesheet" href="/../css/app.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/birdtree/css/main.css">
+        <!--<link rel="stylesheet" href="/../css/main.css">-->
 
     </head>
     <body>
-      <div class="site">
-        <div class="header">
-          <h1 class="title"><a href="/birdtree/">BirdTree.org</a></h1>
-          <a class="extra" href="/birdtree/">Home</a>
-          <a class="extra" href="/birdtree/methods">Methods</a>
-          <a class="extra" href="/birdtree/taxonomy">Taxonomy</a>
-          <a class="extra" href="/birdtree/downloads">Downloads</a>
-          <a class="extra" href="/birdtree/subsets">Phylogeny Subsets</a>            
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">BirdTree.org</a>
         </div>
-
-        <div class="selectInstructions DATE">
-    <font size="5"><strong>Phylogeny subsets</strong></font>
-        <br>
-        This tool provides a simple way to produce distributions of trees with subsets of taxa. The upper limit for the tool is 2,500 species (above which server-based subsetting becomes prohibitively slow). If larger subsets are required you can <a href="archives/">download full trees</a> by following the links on the left.
-        <br><br>
-        The tool first trims to a subset, and then samples trees from a chosen pseudo-posterior distribution. <i>Note that any further analyses should only be conducted with a large sample of trees.</i>
-        
-        <br><br>
-        <b>Instructions</b>
-        <br>
-        1. Select species from the list. Then copy and paste or drag and drop them into the box to the right. Alternatively, download the <a href="BLIOCPhyloMasterTax.csv"> taxonomy file</a> and paste species names from the "Scientific" column.
-        <br>
-        2. Choose a tree distribution (see paper for details).
-        <br>
-        3. Select the number of trees to download (defaults to minimum of 100)
-        <br>
-        4. Click "Get Trees" to download a zipped set of randomly selected trees with metadata including accession numbers and citations to original sources. 
-        
-        <br><br><br>
-       <i>Thanks to the <a href="http://phylodiversity.net/phylocom/">Phylocom</a> Developers for the subsetting algorithms used and Bill Piel, Yale University, for implementation.  </i>
-        
-         
-    </p></div>
-
-
-        <div class="footer">
-          <div class="contact">
-            <p>
-              <a href="mailto:info@birdtree.org">info@birdtree.org</a>
-            </p>
-          </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+              
+                <li><a href="/downloads/index.html">Downloads</a></li>
+              
+            
+              
+                <li><a href="/index.html">Home</a></li>
+              
+            
+              
+                <li><a href="/methods/index.html">Methods</a></li>
+              
+            
+              
+                <li><a href="/taxonomy/index.html">Taxonomy</a></li>
+              
+            
+              
+                <li class="active"><a href="/subsets/index.html" class="active">Phylogeny subsets</a></li>
+              
+            
+              
+                <li><a href="/css/app.css"></a></li>
+              
+            
+          </ul>
         </div>
       </div>
+    </nav>
+    <div class="container">
+        <h1>Phylogeny subsets</h1>
+
+<p>This tool provides a simple way to produce distributions of trees with subsets
+of taxa. The upper limit for the tool is 2,500 species. If larger subsets ar
+required you can <a href="http://birdtree.org/archives/">download full trees</a>.</p>
+
+<p>The tool first trims to a subset, and then samples trees from a chosen
+pseudo-posterior distribution. <em>Note that any further analyses should only
+be conducted with a large sample of trees.</em></p>
+
+<p><strong>Instructions</strong>
+<div class="well">
+1. Select species from the list. Then copy and paste or drag and drop
+them into the box to the right.<br>
+Alternatively, download the <a href="http://birdtree.org/bird-tree/BLIOCPhyloMasterTax.csv">taxonomy file</a>
+and paste species names from the &quot;Scientific&quot; column.<br>
+2. Choose a tree distribution (see paper for details).<br>
+3. Select the number of trees to download (defaults to minimum of 100)<br>
+4. Click &quot;Get Trees&quot; to download a zipped set of randomly selected
+trees with metadata including accession numbers and citations to original<br>
+sources.<br>
+</div></p>
+
+    </div>
+    <div class="container">
+
+        <p>
+          <a href="mailto:info@birdtree.org">info@birdtree.org</a>
+        </p>
+
+    </div>
     </body>
 </html>
