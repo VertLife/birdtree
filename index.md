@@ -7,7 +7,7 @@ A GLOBAL PHYLOGENY OF BIRDS
 ===========================
 
 <img src="/{{ site.root }}/images/Jetz056crop.jpg" height="150px">
-<img onclick="window.open('/{{ site.root }}/images/BirdTreeLarge.png')" src="/images/BirdTreeSmall.png" height="150px">
+<img onclick="window.open('/{{ site.root }}/images/BirdTreeLarge.png')" src="/{{ site.root }}/images/BirdTreeSmall.png" height="150px">
 
 This website accompanies the following studies:
 
