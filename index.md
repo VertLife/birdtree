@@ -8,8 +8,8 @@ weight: 1
   <div class="hero-unit">  
   </div>
 </div>
-
-
+  
+  
 This website accompanies the following studies:
 ***
 The global diversity of birds in space and time  
@@ -28,6 +28,6 @@ URL: [http://dx.doi.org/10.1016/j.cub.2014.03.011](http://dx.doi.org/10.1016/j.c
 
 Explore results in Map of Life:  
 [http://www.mol.org/projects/ED](http://www.mol.org/projects/ED)  
-[http://species.mol.org/info/](http://species.mol.org/info/)
-Explore results on OneZoom tree:  
+[http://species.mol.org/info/](http://species.mol.org/info/)  
+Explore results on OneZoom tree:    
 [http://www.onezoom.org/EDGE_birds.htm](http://www.onezoom.org/EDGE_birds.htm)
