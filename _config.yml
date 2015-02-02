@@ -1,5 +1,8 @@
 name: BirdTree.org
-markdown: redcarpet
+highlighter: pygments
+markdown: kramdown
+kramdown:
+  input: GFM
 pygments: true
 root: birdtree
 permalink: pretty

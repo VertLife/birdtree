@@ -15,7 +15,8 @@ body {
 }
 
 h1.hero-text {
-  float:left;
   font-size: 6em;
-  left: 40px;
+  position: absolute;
+  z-index: 10;
+  width: inherit;
 }
