@@ -30,7 +30,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            {% for node in site.pages %}
+            {% assign pages = site.pages | sort:"order"  %}
+            {% for node in pages %}
               {% if page.url == node.url %}
                 <li class="active"><a href="/{{ site.root }}{{node.url}}" class="active">{{node.title}}</a></li>
               {% else %}
