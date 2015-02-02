@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Phylogeny subsets
+weight: 4
 ---
 
 Phylogeny subsets

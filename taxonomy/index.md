@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Taxonomy
+weight: 3
 ---
 
 Taxonomy

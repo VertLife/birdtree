@@ -1,7 +1,7 @@
 ---
 layout: default
 title: FAQ
-order: 6
+weight: 6
 ---
 
 FAQ

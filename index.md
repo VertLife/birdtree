@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+weight: 1
 ---
 <div class="container">
   <h1 class="hero-text">A GLOBAL PHYLOGENY OF BIRDS</h1>
