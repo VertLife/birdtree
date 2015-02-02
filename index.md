@@ -9,6 +9,7 @@ weight: 1
   </div>
 </div>
 
+
 This website accompanies the following studies:
 ***
 The global diversity of birds in space and time  
