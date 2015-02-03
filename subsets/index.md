@@ -32,21 +32,23 @@ sources.
 </div>
 
 <textarea class="selected" placeholder="Paste species names here (one binomial per line)."></textarea>
+  
+  
+Please provide your email address: <input type="text" name="email" id="email" size="25">
+  
+Source of trees:
+<select name="treeset" id="treeset">
+   <option selected="selected" value="4">Ericson All Species: a set of 10000 trees with 9993 OTUs each </option>
+   <option value="2">Ericson Sequenced Species: a set of 10000 trees with 6670 OTUs each </option>
+   <option value="3">Hackett All Species: a set of 10000 trees with 9993 OTUs each </option>
+   <option value="5">Hackett Sequenced Species: a set of 10000 trees with 6670 OTUs each </option>
+</select>
+  
 
-<div class="bottomright">
-        <label for="email">Please provide your email address:</label><input type="text" name="email" id="email" size="25">
-  <br>
-  <label for="treeset">Source of trees:</label>
-  <select name="treeset" id="treeset">
-     <option selected="selected" value="4">Ericson All Species: a set of 10000 trees with 9993 OTUs each </option>
-     <option value="2">Ericson Sequenced Species: a set of 10000 trees with 6670 OTUs each </option>
-     <option value="3">Hackett All Species: a set of 10000 trees with 9993 OTUs each </option>
-     <option value="5">Hackett Sequenced Species: a set of 10000 trees with 6670 OTUs each </option>
-  </select>
-  <br>
-  <label for="treenum">Select number of trees to create (minimum 100, maximum 10,000)</label>
-  <input id="treenum" type="text" size="2" value="100">
-  <button id="gettrees">Get Trees</button>
-  <img id="loading" src="/{{site.root}}/images/loading.gif" onload="$(this).toggle(false)" style="display: none;">
-  <div id="status"></div>
-</div>
+ 
+ Select number of trees to create (minimum 100, maximum 10,000)
+<input id="treenum" type="text" size="2" value="100">
+<button id="gettrees">Get Trees</button>
+<img id="loading" src="/{{site.root}}/images/loading.gif" onload="$(this).toggle(false)" style="display: none;">
+<div id="status"></div>
+
