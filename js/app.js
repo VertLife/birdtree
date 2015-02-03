@@ -56,7 +56,7 @@ function checkStatus (procid, trees) {
           setTimeout("$('#status').text('')",2000);
           setTimeout(
             function(){
-              $.download('bird-tree/cgi-bin/birdzip.pl', {pid : pid})
+              $.download('http://litoria.eeb.yale.edu/bird-tree/cgi-bin/birdzip.pl', {pid : pid})
             },
             3000
           );
