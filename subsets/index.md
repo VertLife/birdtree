@@ -26,13 +26,14 @@ and paste species names from the "Scientific" column.
 trees with metadata including accession numbers and citations to original  
 sources.  
 
-
-<div class="speciesContainer">
+<div class="container">
+<div class="row">
+<div class="speciesContainer col-md-6">
   {% include species.html %}
 </div>
 
-<textarea class="selectedContainer" id="selected" placeholder="Paste species names here (one binomial per line)."></textarea>
-  
+<textarea class="selectedContainer col-md-6" id="selected" placeholder="Paste species names here (one binomial per line)."></textarea>
+</div></div>
     
     
     
