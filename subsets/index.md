@@ -51,6 +51,6 @@ Select number of trees to create (minimum 100, maximum 10,000)
 
 <input id="treenum" type="text" size="2" value="100">
 <button id="gettrees">Get Trees</button>
-<div id="status"></div>
+<div id="status">&nbsp;</div>
 <img id="loading" src="/{{site.root}}/images/loading.gif" onload="$(this).toggle(false)" style="display: none;">
 
