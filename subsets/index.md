@@ -31,7 +31,7 @@ sources.
   {% include species.html %}
 </div>
 
-<textarea class="selectedContainer" placeholder="Paste species names here (one binomial per line)."></textarea>
+<textarea class="selectedContainer" id="selected" placeholder="Paste species names here (one binomial per line)."></textarea>
   
     
     
