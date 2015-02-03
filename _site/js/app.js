@@ -9,7 +9,7 @@ function getURLParameter(name) {
 
 $('#gettrees').click(
        function(event) {
-    var birdurl =  'http://pruner.map-of-life.appspot.com/api/prune';
+    var birdurl =  'http://litoria.eeb.yale.edu/bird-tree/cgi-bin/birdsJ.pl';
 
     $("#loading").toggle(true);
 
@@ -20,7 +20,7 @@ $('#gettrees').click(
                 email: $('#email').val(),
                 treeset: $('#treeset').val(),
                 treenum: $('#treenum').val(),
-                species: $('.selected')[0].value,
+                species: $('#selected').val(),
     debug: getURLParameter('debug')
             },
             function(response) {
@@ -56,7 +56,7 @@ function checkStatus (procid, trees) {
           setTimeout("$('#status').text('')",2000);
           setTimeout(
             function(){
-              $.download('bird-tree/cgi-bin/birdzip.pl', {pid : pid})
+              $.download('http://litoria.eeb.yale.edu/bird-tree/cgi-bin/birdzip.pl', {pid : pid})
             },
             3000
           );

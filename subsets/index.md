@@ -28,29 +28,23 @@ sources.
 
 <div class="container">
 <div class="row">
-<div class="speciesContainer col-md-6">
+<div class="speciesContainer col-md-3">
   {% include species.html %}
 </div>
 
-<textarea class="selectedContainer col-md-6" id="selected" placeholder="Paste species names here (one binomial per line)."></textarea>
-</div></div>
-    
-    
-    
-Please provide your email address: <input type="text" name="email" id="email" size="25">
-  
-Source of trees:
+<textarea  class="selectedContainer col-md-3" id="selected" placeholder="Paste species names here (one binomial per line)."></textarea></div>
+</div>
 
-<select name="treeset" id="treeset">
+
+
+Please provide your email address: <input type="text" name="email" id="email" size="25">
+
+Source of trees: <select name="treeset" id="treeset">
    <option selected="selected" value="4">Ericson All Species: a set of 10000 trees with 9993 OTUs each </option>
    <option value="2">Ericson Sequenced Species: a set of 10000 trees with 6670 OTUs each </option>
    <option value="3">Hackett All Species: a set of 10000 trees with 9993 OTUs each </option>
    <option value="5">Hackett Sequenced Species: a set of 10000 trees with 6670 OTUs each </option>
 </select>
 
-Select number of trees to create (minimum 100, maximum 10,000)  
-
-<input id="treenum" type="text" size="2" value="100">
-<button id="gettrees">Get Trees</button>
-<img id="loading" src="/{{site.root}}/images/loading.gif" onload="$(this).toggle(false)" style="display: none;">
-
+Select number of trees to create (minimum 100, maximum 10,000): <input id="treenum" type="text" size="2" value="100">
+<button class="btn" id="gettrees">Get Trees</button> <span><img id="loading" src="/{{site.root}}/images/loading.gif" onload="$(this).toggle(false)" style="display: none;"><span><span id="status"></span>
