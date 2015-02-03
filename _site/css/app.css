@@ -3,7 +3,7 @@ body {
 }
 
 .hero-unit {
-  background-image:url('/birdtree/images/BirdTreeLarge.png');
+  background-image:url('/../images/BirdTreeLarge.png');
   opacity: 0.4;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -17,3 +17,11 @@ h1.hero-text {
   z-index: 10;
   width: inherit;
 }
+
+.listsContainer{margin-left:5em}
+.listTable{border: 1pt solid #bbb;}
+.speciesContainer {float:left;height:400px;width:50%;overflow-y:scroll; margin:5px;text-align:left;border: 0.5pt solid black;}
+.species {float:left;margin:5px;height:400px;width:50%;overflow-y:scroll; overflow-x:hidden; text-align:left;}
+.selectedContainer {height:400px;width:50%;}
+.selected{margin:0px;height:370px; width:220px; padding-left:5px;border:none; overflow-y:scroll; overflow-x:hidden}
+.selectLabels{-webkit-touch-callout: none;-webkit-user-select: none;}
