@@ -20,7 +20,7 @@ $('#gettrees').click(
                 email: $('#email').val(),
                 treeset: $('#treeset').val(),
                 treenum: $('#treenum').val(),
-                species: $('.selected')[0].value,
+                species: $('#selected').value,
     debug: getURLParameter('debug')
             },
             function(response) {
