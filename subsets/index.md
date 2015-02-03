@@ -33,7 +33,7 @@ sources.
 
 <textarea class="selected" placeholder="Paste species names here (one binomial per line)."></textarea>
   
-  
+------------------------------------
 Please provide your email address: <input type="text" name="email" id="email" size="25">
   
 Source of trees:
