@@ -9,7 +9,7 @@ weight: 1
   </div>
 </div>
 
---
+
 This website accompanies the following studies:
 
 The global diversity of birds in space and time  
@@ -25,7 +25,7 @@ Jetz, W., G. H. Thomas, J. B. Joy, K. Hartmann, D. Redding, and A. O. Mooers. 20
 
 URL: [http://dx.doi.org/10.1016/j.cub.2014.03.011](http://dx.doi.org/10.1016/j.cub.2014.03.011)  
 
---
+
 Explore results in Map of Life:  
 [http://www.mol.org/projects/ED](http://www.mol.org/projects/ED)  
 [http://species.mol.org/info/](http://species.mol.org/info/)  
