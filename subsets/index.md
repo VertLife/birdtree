@@ -44,13 +44,13 @@ Source of trees: <select name="treeset" id="treeset">
    <option value="2">Ericson Sequenced Species: a set of 10000 trees with 6670 OTUs each </option>
    <option value="3">Hackett All Species: a set of 10000 trees with 9993 OTUs each </option>
    <option value="5">Hackett Sequenced Species: a set of 10000 trees with 6670 OTUs each </option>
-   <option value="6">Stage2 Parrot</option>
-   <option value="7">Stage2 FP Trees Ericson</option>
-   <option value="8">Stage2 FP Trees Hackett</option>
-   <option value="9">Stage2 MayrAll Ericson</option>
-   <option value="10">Stage2 MayrParSho Ericson</option>
-   <option value="11">Stage2 MayrAll Hackett</option>
-   <option value="12">Stage2 MayrParSho Hackett</option>
+   <option disabled value="6">Stage2 Parrot</option>
+   <option disabled value="7">Stage2 FP Trees Ericson</option>
+   <option disabled value="8">Stage2 FP Trees Hackett</option>
+   <option disabled value="9">Stage2 MayrAll Ericson</option>
+   <option disabled value="10">Stage2 MayrParSho Ericson</option>
+   <option disabled value="11">Stage2 MayrAll Hackett</option>
+   <option disabled value="12">Stage2 MayrParSho Hackett</option>
 </select>
 
 Select number of trees to create (minimum 100, maximum 10,000): <input id="treenum" type="text" size="2" value="100">
