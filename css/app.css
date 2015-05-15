@@ -5,7 +5,8 @@ body {
   padding-top: 50px;
 }
 table td {
- padding: 5px;  
+ padding: 5px;
+ text-align:left;
 }
 .hero-unit {
   background-image:url('/{{ site.root }}/images/BirdTreeLarge.png');
