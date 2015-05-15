@@ -7,9 +7,9 @@ weight: 6
 FAQ
 ===
 
-**1. Have you got/should I use a consensus tree?**
+***1. Have you got/should I use a consensus tree?***
 
-**2. Chains not mixing when using distributions of the bird tree in BayesTraits:**  
+***2. Chains not mixing when using distributions of the bird tree in BayesTraits:***
   
 > We have received reports, courtesy of Chris Venditti and Andrew Meade, that some BayesTraits users cannot get chains to mix properly when using samples of the bird tree. This happens when there is a lack of resolution in the tree because the likelihood latches on to a particular relationship (or resolution) where there is a good fit to the comparative data.  
   
