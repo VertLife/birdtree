@@ -47,10 +47,10 @@ Source of trees: <select name="treeset" id="treeset">
    <option value="6">Stage2 Parrot</option>
    <option value="7">Stage2 FP Trees Ericson</option>
    <option value="8">Stage2 FP Trees Hackett</option>
-   <option value="9">Stage2 MayrAll Ericson</option>
-   <option value="10">Stage2 MayrParSho Ericson</option>
-   <option value="11">Stage2 MayrAll Hackett</option>
-   <option value="12">Stage2 MayrParSho Hackett</option>
+   <option value="13">Stage2 MayrAll Ericson</option>
+   <option disabled value="14">Stage2 MayrParSho Ericson</option>
+   <option disabled value="15">Stage2 MayrAll Hackett</option>
+   <option disabled value="16">Stage2 MayrParSho Hackett</option>
 </select>
 
 Select number of trees to create (minimum 100, maximum 10,000): <input id="treenum" type="text" size="2" value="100">
