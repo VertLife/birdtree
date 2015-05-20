@@ -49,7 +49,7 @@ Source of trees: <select name="treeset" id="treeset">
    <option value="8">Stage2 FP Trees Hackett</option>
    <option value="13">Stage2 MayrAll Ericson</option>
    <option value="14">Stage2 MayrParSho Ericson</option>
-   <option disabled value="15">Stage2 MayrAll Hackett</option>
+   <option value="15">Stage2 MayrAll Hackett</option>
    <option disabled value="16">Stage2 MayrParSho Hackett</option>
 </select>
 
