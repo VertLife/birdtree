@@ -9,7 +9,7 @@ Phylogeny subsets
 
 This tool provides a simple way to produce distributions of trees with subsets
 of taxa. The upper limit for the tool is 2,500 species. If larger subsets ar
-required you can [download full trees](http://birdtree.org/archives/).
+required you can [download full trees](http://litoria.eeb.yale.edu/archives/).
 
 The tool first trims to a subset, and then samples trees from a chosen
 pseudo-posterior distribution. *Note that any further analyses should only
@@ -18,7 +18,7 @@ be conducted with a large sample of trees.*
 **Instructions**
 
 1. Select species from the list. Then copy and paste or drag and drop
-them into the box to the right. Alternatively, download the [taxonomy file](http://birdtree.org/bird-tree/BLIOCPhyloMasterTax.csv)
+them into the box to the right. Alternatively, download the [taxonomy file](http://litoria.eeb.yale.edu/bird-tree/BLIOCPhyloMasterTax.csv)
 and paste species names from the "Scientific" column.  
 2. Choose a tree distribution (see paper for details).  
 3. Select the number of trees to download (defaults to minimum of 100)  
