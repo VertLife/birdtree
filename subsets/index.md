@@ -54,4 +54,4 @@ Source of trees: <select name="treeset" id="treeset">
 </select>
 
 Select number of trees to create (minimum 100, maximum 10,000): <input id="treenum" type="text" size="2" value="100">
-<button class="btn" id="gettrees">Get Trees</button> <span><img id="loading" src="/{{site.root}}/images/loading.gif" onload="$(this).toggle(false)" style="display: none;"><span><span id="status"></span>
+<button class="btn" id="gettrees">Get Trees</button> <span><img id="loading" src="/images/loading.gif" onload="$(this).toggle(false)" style="display: none;"><span><span id="status"></span>
