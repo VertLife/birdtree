@@ -4,5 +4,4 @@ markdown: kramdown
 kramdown:
   input: GFM
 pygments: true
-root: birdtree
 permalink: pretty
