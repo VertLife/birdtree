@@ -4,10 +4,12 @@ title: Phylogeny subsets
 weight: 4
 ---
 
-__Phylogeny subsets are currently offline as we transition servers (11-02-2017)__
+
 
 Phylogeny subsets
 =================
+
+__Phylogeny subsets are currently offline as we transition servers (11-02-2017)__
 
 This tool provides a simple way to produce distributions of trees with subsets
 of taxa. The upper limit for the tool is 2,500 species. If larger subsets ar
