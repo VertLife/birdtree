@@ -9,7 +9,12 @@ weight: 5
 Downloading whole tree distributions
 ====================================
 
- __Downloads are currently offline as we transition between servers. (11-02-2017)__ 
+
+<div class="alert alert-warning">
+  <p><b>02 Nov 2017:</b> Downloads are currently offline as we transition between servers.</p>
+</div>
+
+
 
 The phylogeny is available to download as either archives of complete trees (below) or by subsetting to a user provided set of species using the tool on the right.
 
