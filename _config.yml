@@ -1,5 +1,5 @@
 name: BirdTree.org
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
