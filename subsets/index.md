@@ -48,17 +48,17 @@ sources.
 Please provide your email address: <input type="text" name="email" id="email" size="25">
 
 Source of trees: <select name="treeset" id="treeset">
-   <option selected="selected" value="4">Ericson All Species: a set of 10000 trees with 9993 OTUs each </option>
-   <option value="2">Ericson Sequenced Species: a set of 10000 trees with 6670 OTUs each </option>
-   <option value="3">Hackett All Species: a set of 10000 trees with 9993 OTUs each </option>
-   <option value="5">Hackett Sequenced Species: a set of 10000 trees with 6670 OTUs each </option>
-   <option value="6">Stage2 Parrot</option>
-   <option value="7">Stage2 FP Trees Ericson</option>
-   <option value="8">Stage2 FP Trees Hackett</option>
-   <option value="13">Stage2 MayrAll Ericson</option>
-   <option value="14">Stage2 MayrParSho Ericson</option>
-   <option value="15">Stage2 MayrAll Hackett</option>
-   <option value="16">Stage2 MayrParSho Hackett</option>
+   <option selected="selected" value="EricsonStage2">Ericson All Species: a set of 10000 trees with 9993 OTUs each </option>
+   <option value="EricsonStage1">Ericson Sequenced Species: a set of 10000 trees with 6670 OTUs each </option>
+   <option value="HackettStage2">Hackett All Species: a set of 10000 trees with 9993 OTUs each </option>
+   <option value="HackettStage1">Hackett Sequenced Species: a set of 10000 trees with 6670 OTUs each </option>
+   <option value="Stage2_DecisiveParrot">Stage2 Parrot</option>
+   <option value="Stage2_FPTrees_EricsonDecisive">Stage2 FP Trees Ericson</option>
+   <option value="Stage2_FPTrees_HackettDecisive">Stage2 FP Trees Hackett</option>
+   <option value="Stage2_MayrAll_Ericson_decisive">Stage2 MayrAll Ericson</option>
+   <option value="Stage2_MayrParSho_Ericson_decisive">Stage2 MayrParSho Ericson</option>
+   <option value="Stage2_MayrAll_Hackett_decisive">Stage2 MayrAll Hackett</option>
+   <option value="Stage2_MayrParSho_Hackett_decisive">Stage2 MayrParSho Hackett</option>
 </select>
 
 Select number of trees to create (minimum 100, maximum 10,000): <input id="treenum" type="text" size="2" value="100">
