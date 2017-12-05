@@ -43,7 +43,9 @@ sources.
           <div class="speciesContainer col-md-5">
             {% include species.html %}
           </div>
-<textarea class="selectedContainer col-md-5" id="selected" placeholder="Paste species names here (one binomial per line)."></textarea>
+          <div class="selectedContainer col-md-5">
+            <textarea id="selected" placeholder="Paste species names here (one binomial per line)."></textarea>
+          </div>
         </div>
       </div>
     </form>
