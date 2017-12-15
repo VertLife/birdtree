@@ -10,8 +10,13 @@ Phylogeny subsets
 =================
 
 
-<div class="alert alert-warning">
-  <p><b>02 Nov 2017:</b> Phylogeny subsets are currently offline as we transition servers.</p>
+<div class="alert alert-info">
+  <p><b>15 Dec 2017:</b> We have a new beta version of Phylogeny subsets. Please contact us if you have any issues.</p>
+  <p>
+    Results taking longer than expected? We are currently working on improving our server, which may result in longer processing times. 
+    <br />
+    You will receive an email notification when your results are ready. Thank you for your patience!
+  </p>
 </div>
 
 
