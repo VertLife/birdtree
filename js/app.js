@@ -14,6 +14,9 @@ $('#btnGetTrees').click(function(event) {
 
   var birdurl =  'http://tree-pruner.map-of-life.appspot.com/api/prune';
   // var birdurl =  'http://localhost:8080/api/prune';
+  if (getURLParameter('debug') == 'true') {
+    birdurl =  'http://tree-pruner-alpha.map-of-life.appspot.com/api/prune';
+  }
   $.post(birdurl, {
     email: $('#email').val(),
     tree_base: 'birdtree',
@@ -45,6 +48,9 @@ $('#btnStatus').click(function(event) {
 
 function checkJobStatus(email, job_id, statusObj) {
   var url = 'http://tree-pruner.map-of-life.appspot.com/api/result';
+  if (getURLParameter('debug') == 'true') {
+    url = 'http://tree-pruner-alpha.map-of-life.appspot.com/api/result';
+  }
   $.getJSON(url, {email: email, job_id: job_id})
     .done(function(data) {
       if (data.status == 'error') {
