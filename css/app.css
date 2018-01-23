@@ -34,3 +34,5 @@ h1.hero-text {
 
 .well.well-lg { background-color: #fff; }
 #status { margin-top: 15px; }
+
+.alert a { color: darkslategray; }

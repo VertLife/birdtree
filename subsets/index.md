@@ -11,7 +11,7 @@ Phylogeny subsets
 
 
 <div class="alert alert-warning">
-  <p><b>22 Jan 2018:</b> We have a new beta version of Phylogeny subsets. Please <a href="mailto:support@birdtree.org">contact us</a> if you have any issues.</p>
+  <p><b>22 Jan 2018:</b> We have updated this service. Please <a href="mailto:support@birdtree.org">contact us</a> if you have any issues.</p>
 </div>
 
 
