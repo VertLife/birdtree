@@ -10,13 +10,8 @@ Phylogeny subsets
 =================
 
 
-<div class="alert alert-info">
-  <p><b>15 Dec 2017:</b> We have a new beta version of Phylogeny subsets. Please contact us if you have any issues.</p>
-  <p>
-    Results taking longer than expected? We are currently working on improving our server, which may result in longer processing times. 
-    <br />
-    You will receive an email notification when your results are ready. Thank you for your patience!
-  </p>
+<div class="alert alert-warning">
+  <p><b>22 Jan 2018:</b> We have a new beta version of Phylogeny subsets. Please <a href="mailto:support@birdtree.org">contact us</a> if you have any issues.</p>
 </div>
 
 
@@ -38,6 +33,13 @@ and paste species names from the "Scientific" column.
 4. Click "Get Trees" to download a zipped set of randomly selected
 trees with metadata including accession numbers and citations to original  
 sources.  
+
+<div class="well well-sm">
+  <p>
+    <strong>Results taking longer than expected? </strong>
+    <br />Traffic volume may result in longer processing times. If you don't recieve an email with the completed subset trees within 24 hours, please <a href="mailto:support@birdtree.org">contact us</a>.
+  </p>
+</div>
 
 <div class="container well well-lg">
   <div class="row">

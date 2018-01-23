@@ -13,7 +13,6 @@ $('#btnGetTrees').click(function(event) {
   $("#status").toggle(false);
 
   var birdurl =  'http://tree-pruner.map-of-life.appspot.com/api/prune';
-  // var birdurl =  'http://localhost:8080/api/prune';
   if (getURLParameter('debug') == 'true') {
     birdurl =  'http://tree-pruner-alpha.map-of-life.appspot.com/api/prune';
   }
@@ -31,7 +30,6 @@ $('#btnGetTrees').click(function(event) {
     //   checkJobStatus($('#email').val(), data.job_id, $("#status"));
     // }, 60000);
   }).fail(function (response) {
-    alert(response.responseJSON.message);
     $("#status").html('<div class="alert alert-danger"><h4>There is an issue with your request</h4><p>' + response.responseJSON.message + '.</p></div>');
   }).always(function () {
     console.log('done');
