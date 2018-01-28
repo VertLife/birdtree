@@ -12,11 +12,11 @@ $('#btnGetTrees').click(function(event) {
   $("#loading").toggle(true);
   $("#status").toggle(false);
 
-  var birdurl =  'http://tree-pruner.map-of-life.appspot.com/api/prune';
+  var url =  'https://tree-pruner-dot-map-of-life.appspot.com/api/prune';
   if (getURLParameter('debug') == 'true') {
-    birdurl =  'http://tree-pruner-alpha.map-of-life.appspot.com/api/prune';
+    url =  'https://tree-pruner-alpha-dot-map-of-life.appspot.com/api/prune';
   }
-  $.post(birdurl, {
+  $.post(url, {
     email: $('#email').val(),
     tree_base: 'birdtree',
     tree_set: $('#treeset').val(),
