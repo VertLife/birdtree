@@ -10,14 +10,14 @@ Phylogeny subsets
 =================
 
 
-<div class="alert alert-warning">
+<!-- <div class="alert alert-warning">
   <p><b>22 Jan 2018:</b> We have updated this service. Please <a href="mailto:support@birdtree.org">contact us</a> if you have any issues.</p>
-</div>
+</div> -->
 
 
 This tool provides a simple way to produce distributions of trees with subsets
 of taxa. The upper limit for the tool is 2,500 species. If larger subsets ar
-required you can [download full trees](https://data.vertlife.org/).
+required you can [download full trees](https://data.vertlife.org/?basetree=birdtree).
 
 The tool first trims to a subset, and then samples trees from a chosen
 pseudo-posterior distribution. *Note that any further analyses should only
@@ -25,9 +25,11 @@ be conducted with a large sample of trees.*
 
 **Instructions**
 
-1. Select species from the list. Then copy and paste or drag and drop
-them into the box to the right. Alternatively, download the [taxonomy file](https://data.vertlife.org/birdtree/BLIOCPhyloMasterTax.csv)
+1. Select species from the list which follows the [taxonomy](/taxonomy). Then copy and paste or drag and drop
+them into the box to the right. 
+  - _Alternatively_, download the [taxonomy file](https://data.vertlife.org/birdtree/BLIOCPhyloMasterTax.csv)
 and paste species names from the "Scientific" column.  
+  - _Please note_: If you have different names, you will have to resolve to the available list. 
 2. Choose a tree distribution (see paper for details).  
 3. Select the number of trees to download (defaults to minimum of 100)  
 4. Click "Get Trees" to download a zipped set of randomly selected
