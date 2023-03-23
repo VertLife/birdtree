@@ -45,9 +45,9 @@ $('#btnStatus').click(function(event) {
 });
 
 function checkJobStatus(email, job_id, statusObj) {
-  var url = 'http://tree-pruner.map-of-life.appspot.com/api/result';
+  var url =  'https://tree-pruner-dot-map-of-life.appspot.com/api/result';
   if (getURLParameter('debug') == 'true') {
-    url = 'http://tree-pruner-alpha.map-of-life.appspot.com/api/result';
+    url =  'https://tree-pruner-alpha-dot-map-of-life.appspot.com/api/result';
   }
   $.getJSON(url, {email: email, job_id: job_id})
     .done(function(data) {
