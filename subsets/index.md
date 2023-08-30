@@ -35,7 +35,8 @@ and paste species names from the "Scientific" column.
 4. Click "Get Trees" to download a zipped set of randomly selected
 trees with metadata including accession numbers and citations to original  
 sources.  
-5. __Please wait a minute then check the job status using your email address and job ID to check the status of the download. If the download is complete, then you can download the trees. If the trees are not ready, please wait another minute and check the status again.__
+5. __Please wait a minute then check the job status using your email address and job ID. If the download is complete, then you can download the trees. If the trees are not ready, please wait another minute and check the status again.__
+
 
 
 <div class="well well-sm">
