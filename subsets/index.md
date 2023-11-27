@@ -14,6 +14,12 @@ Phylogeny subsets
   <p><b>22 Jan 2018:</b> We have updated this service. Please <a href="mailto:support@birdtree.org">contact us</a> if you have any issues.</p>
 </div> -->
 
+Any use of full or partial (subset) tree data in research work requires the following citation: 
+
+>_Jetz, W., G. H. Thomas, J. B. Joy, K. Hartmann, and A. O. Mooers. 2012. The global diversity of birds in space and time. Nature 491:444-448_
+
+For any additional use of the birdtree web tool, please cite “birdtree.org”.
+
 
 This tool provides a simple way to produce distributions of trees with subsets
 of taxa. The upper limit for the tool is 2,500 species. If larger subsets ar
