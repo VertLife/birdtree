@@ -27,3 +27,11 @@ Alternatively, distributions for individual clades or backbone trees can be down
 [Sequence data only](https://data.vertlife.org/?basetree=birdtree&start_folder=PatchClade/Stage1/)
 
 [Full trees](https://data.vertlife.org/?basetree=birdtree&start_folder=PatchClade/Stage2/)
+
+
+## Reminder
+Any use of full or partial (subset) tree data in research work requires the following citation: 
+
+>_Jetz, W., G. H. Thomas, J. B. Joy, K. Hartmann, and A. O. Mooers. 2012. The global diversity of birds in space and time. Nature 491:444-448_
+
+For any additional use of the birdtree web tool, please cite “birdtree.org”

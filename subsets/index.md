@@ -10,6 +10,19 @@ Phylogeny subsets
 =================
 
 
+### Introduction
+
+This tool provides a simple way to produce distributions of trees with subsets
+of taxa. The upper limit for the tool is 2,500 species. If larger subsets ar
+required you can [download full trees](https://data.vertlife.org/?basetree=birdtree).
+
+The tool first trims to a subset, and then samples trees from a chosen
+pseudo-posterior distribution. *Note that any further analyses should only
+be conducted with a large sample of trees.*
+
+
+### Citation
+
 <!-- <div class="alert alert-warning">
   <p><b>22 Jan 2018:</b> We have updated this service. Please <a href="mailto:support@birdtree.org">contact us</a> if you have any issues.</p>
 </div> -->
@@ -21,15 +34,7 @@ Any use of full or partial (subset) tree data in research work requires the foll
 For any additional use of the birdtree web tool, please cite “birdtree.org”.
 
 
-This tool provides a simple way to produce distributions of trees with subsets
-of taxa. The upper limit for the tool is 2,500 species. If larger subsets ar
-required you can [download full trees](https://data.vertlife.org/?basetree=birdtree).
-
-The tool first trims to a subset, and then samples trees from a chosen
-pseudo-posterior distribution. *Note that any further analyses should only
-be conducted with a large sample of trees.*
-
-**Instructions**
+### Instructions
 
 1. Select species from the list which follows the [taxonomy](/taxonomy). Then copy and paste or drag and drop
 them into the box to the right. 
