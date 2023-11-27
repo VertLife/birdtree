@@ -38,7 +38,7 @@ Jetz, W., G. H. Thomas, J. B. Joy, K. Hartmann, D. Redding, and A. O. Mooers. 20
 URL: [https://dx.doi.org/10.1016/j.cub.2014.03.011](http://dx.doi.org/10.1016/j.cub.2014.03.011)  
 
 
-#### Additional Links:
+### Additional Links:
 
 Explore Map of Life:  
 * [https://mol.org](https://mol.org)  
